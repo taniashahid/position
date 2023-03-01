@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.login-box_wrap {
+    background-color: rgba(0, 0, 0, 0.707);
+    position: fixed;
+    inset: 0;
+}
+
+.login-box_wrap .login-box{
+    width: 400px;
+    height: 560px;
+    background-color: #fff;
+    position: fixed;
+    inset: 50% 0 0 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+.login-close{
+  position: fixed;
+  top: 0;
+  right: 0;
+  
+  
+  
+
+}
+
+.login-close a {
+    color: black;
+    
+}
+
+.login-close span{
+    padding: 8px;
+    font-size: 30px;
+}
+
+.container{
+    max-width: 336px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.olx-logo {
+    margin: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading h2{
+    margin: 16px;
+    text-align: center;
+}
+
+.main-heading text{
+    font-size: 22.4px;
+    font-family: sans-serif;
+    text-align: center;
+
+
+}
+
+
+.social-icon-wrapper{
+    margin-top: 32px;
+}
+
+
+
+.social-icon-wrapper ul {
+    list-style-type: none;
+}
+
+.social-icon-wrapper ul li {
+    border: 2.4px;
+    margin-bottom: 8px;
+    border-radius: 4.8px;
+}
+
